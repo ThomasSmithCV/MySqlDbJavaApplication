@@ -1,0 +1,27 @@
+CREATE TABLE `Organization`.`Staff` ( 
+`StaffID` INT(10) UNSIGNED NOT NULL ,
+`FirstName` VARCHAR(25) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`LastName` VARCHAR(25) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`DateOfBirth` VARCHAR(12) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`Department` VARCHAR(25) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`Salary` DECIMAL(8) NOT NULL ,
+`StartDate` VARCHAR(25) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`FullTime` BOOLEAN NOT NULL , PRIMARY KEY (`StaffID`)
+) ENGINE = InnoDB;  
+
+// InnoDB is the storage engine for MySQL.
+
+ALTER TABLE Staff MODIFY COLUMN StaffID INT NOT NULL AUTO_INCREMENT;
+
+Insert INTO Staff
+(FirstName, LastName, DateOfBirth, Department, Salary, StartDate, FullTime)
+VALUES
+('John', 'Doyle', '16/08/1962', 'Teacher', 65000.00, '01/03/2000', TRUE),
+('Jane', 'Lowe', '11/08/1982', 'Teacher', 45000.00, '01/03/2005', TRUE),
+('Simon', 'Walsh', '21/03/1990', 'Maintenance', 32000.00, '01/08/2006', TRUE),
+('Peter', 'Lane', '24/09/1990', 'Maintenance', 16000.00, '02/08/2006', FALSE),
+('Samantha', 'Heart', '26/02/1992', 'Trainee Teacher', 18000.00, '12/10/2009', TRUE),
+('Sarah', 'Heart', '03/01/1992', 'Assistant Teacher', 19500.00, '12/10/2009', FALSE),
+('Steve', 'Jobs', '24/02/1955', 'Principal', 89500.00, '12/10/1978', TRUE),
+('Steve', 'Wozniak', '11/08/1950', 'Vice-Principal', 89500.00, '12/10/1978', TRUE)
+;
