@@ -7,7 +7,7 @@ Java Application to Interface Data from a mySQL Database
 *************************************** 2017 ****************************************
 *************************************************************************************
 
-This project is a Java Application that serves as an interface to a local MySQL database storing contact information for an organisations staff members. I developed this Java code using an OSX operating system therefore a local MySQL server was needed. For this, I used MAMP (https://www.mamp.info/en/). I have also implemented some extraction functionality that will export data to csv (comma separated values) along with creating some visual graphs.
+This project is a Java Application that serves as an interface to a local MySQL database storing contact information for an organisations staff members. I developed this Java code using an OSX operating system therefore a local MySQL server was needed. For this, I used MAMP (https://www.mamp.info/en/). I have also implemented some extra functionality that will export data to csv (comma separated values) along with creating some visual graphs.
 
 I found this project useful as a learning tool to understand the following:
 * GUI Components
