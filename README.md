@@ -1,4 +1,4 @@
-# mySQLDbJavaApplication
+# MySqlDbJavaApplication
 Java Application to Interface Data from a mySQL Database
 
 *************************************************************************************
