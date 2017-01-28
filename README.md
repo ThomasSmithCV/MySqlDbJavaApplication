@@ -32,7 +32,7 @@ You will also see a JAR folder containing the necessary JARs for connection to t
 
 If any user has major issue with setting up this project please feel free to email me at engineertsmith@gmail.com.
 
-I (Thomas Smith) will be maintaining this project and am more than happy to listen to any suggestions or further implementation ideas.
+I ([Thomas Smith](https://trailhead.salesforce.com/users/profiles/005500000060t7VAAQ)) will be maintaining this project and am more than happy to listen to any suggestions or further implementation ideas.
 
 ********************************** Happy Coding!! ***********************************
 *************************************************************************************
