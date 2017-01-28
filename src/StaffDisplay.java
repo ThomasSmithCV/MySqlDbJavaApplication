@@ -52,9 +52,10 @@ public class StaffDisplay extends JFrame {
     private JLabel recordLabel, ofLabel;
     private JTextField indexTextField, maxTextfield;
     
-    private static final String CONNECTION_URL = "jdbc:mysql://localhost:8889/Organization";
-    private static final String USERNAME = "java";
-    private static final String PASSWORD = "password";
+    // Connection URL syntax can be found at https://dev.mysql.com/doc/connector-j/5.1/en/connector-j-reference-configuration-properties.html
+    private static final String CONNECTION_URL = "";
+    private static final String USERNAME = "replaceUsername";
+    private static final String PASSWORD = "replacePassword";
     private Boolean insertPressed = false;
 
     //Objects for the details panel
